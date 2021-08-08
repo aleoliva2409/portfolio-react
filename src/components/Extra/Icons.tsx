@@ -6,10 +6,9 @@ import {
   LinkedIn as LinkedInIcon,
   GitHub as GitHubIcon,
 } from "@material-ui/icons";
-import useStyles from "./IconsStyles";
+import useStyles from './IconsStyles'
 
 const Icons = (): JSX.Element => {
-
   const classes = useStyles();
 
   return (

@@ -1,9 +1,9 @@
 
 import { Container } from "@material-ui/core";
 import Arrow from "./components/Extra/Arrow";
-import Title from "./components/Extra/Title";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
+import Skills from "./components/Skills/Skills";
 import useStyles from "./styles/App";
 
 function App(): JSX.Element {
@@ -16,7 +16,7 @@ function App(): JSX.Element {
       <Container maxWidth="lg" className={classes.wrapper}>
         <Home />
         <Arrow />
-        <Title title="Skills" />
+        <Skills />
       </Container>
     </div>
   )
