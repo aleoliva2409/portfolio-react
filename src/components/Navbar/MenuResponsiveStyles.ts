@@ -1,0 +1,25 @@
+import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    menuIconContainer: {
+      flexGrow: 1,
+      [theme.breakpoints.up("sm")]: {
+        display: "none"
+      }
+    },
+    menuButton: {
+      display: "flex",
+      justifyContent: "flex-start",
+    },
+    icon: {
+      fontSize: "32px",
+    },
+    item: {
+      color: "#310A90",
+      fontWeight: 550
+    },
+  }),
+);
+
+export default useStyles;
