@@ -30,18 +30,16 @@ const useStyles = makeStyles((theme: Theme) =>
       display: "block",
       color: "#310A90",
       fontWeight: 550,
-      fontSize: "16px",
+      fontSize: "1.1em",
       cursor: "pointer",
-      padding: "8px",
+      padding: ".4em",
       borderRadius: "5px",
       "&:hover": {
         color: "#fff",
         backgroundColor: "#310A90"
       },
-      [theme.breakpoints.up("md")]: {
-      },
       [theme.breakpoints.up("lg")]: {
-        fontSize: "18px",
+        fontSize: "1.2em",
       }
     },
     btnContainer:{

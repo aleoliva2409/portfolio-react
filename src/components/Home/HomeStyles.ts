@@ -5,7 +5,8 @@ const useStyles = makeStyles((theme: Theme) =>
     imgContainer: {
       borderRadius: "15px",
       overflow: "hidden",
-      height: "100%"
+      height: "100%",
+      width: "100%"
     },
     img: {
       height: "100%",

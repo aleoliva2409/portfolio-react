@@ -57,7 +57,7 @@ const MenuResponsive = (): JSX.Element => {
         </MenuItem>
         <MenuItem className={classes.item} >
           <Link to="contact" onClick={handleClose}>
-            Contacto
+            Hablemos
           </Link>
         </MenuItem>
       </Menu>

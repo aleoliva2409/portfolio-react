@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme: Theme) =>
       justifyContent: "flex-start",
     },
     icon: {
-      fontSize: "32px",
+      fontSize: "1.3em",
     },
     item: {
       color: "#310A90",

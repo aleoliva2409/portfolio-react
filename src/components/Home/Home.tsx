@@ -1,16 +1,13 @@
-import { Box, Grid, Typography, IconButton } from "@material-ui/core";
-import PhoneIcon from "@material-ui/icons/Phone";
-import MailIcon from "@material-ui/icons/Mail";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import { Box, Grid, Typography } from "@material-ui/core";
 import useStyles from "./HomeStyles";
+import Icons from "../Extra/Icons";
 
 const Inicio = (): JSX.Element => {
   const classes = useStyles();
 
   return (
     <Grid container direction="row" justifyContent="space-evenly" alignItems="center" spacing={1}>
-      <Grid item xs={11} sm={5} md={4} lg={5} xl={6} >
+      <Grid item xs={11} sm={5} md={4} lg={5} xl={5} >
         <Box className={classes.imgContainer}>
           <img
             src="https://media.discordapp.net/attachments/751947165143793807/873750585533407262/fondo.png"
@@ -37,26 +34,7 @@ const Inicio = (): JSX.Element => {
           </Typography>
         </Box>
         <Box display="flex" justifyContent="space-evenly" my={4}>
-          <Box border={1} borderRadius={10} borderColor="primary.main" className={classes.icons}>
-            <IconButton aria-label="" color="primary">
-              <PhoneIcon />
-            </IconButton>
-          </Box>
-          <Box border={1} borderRadius={10} borderColor="primary.main" className={classes.icons}>
-            <IconButton aria-label="" color="primary">
-              <MailIcon />
-            </IconButton>
-          </Box>
-          <Box border={1} borderRadius={10} borderColor="primary.main" className={classes.icons}>
-            <IconButton aria-label="" color="primary">
-              <LinkedInIcon />
-            </IconButton>
-          </Box>
-          <Box border={1} borderRadius={10} borderColor="primary.main" className={classes.icons}>
-            <IconButton aria-label="" color="primary">
-              <GitHubIcon />
-            </IconButton>
-          </Box>
+          <Icons />
         </Box>
       </Grid>
     </Grid>

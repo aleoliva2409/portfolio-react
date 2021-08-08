@@ -27,7 +27,7 @@ const Navbar = (): JSX.Element => {
                 <Link to="projects" className={classes.link}>Proyectos</Link>
               </li>
               <li className={classes.list}>
-                <Link to="contact" className={classes.link}>Contacto</Link>
+                <Link to="contact" className={classes.link}>Hablemos</Link>
               </li>
             </ul>
             <Box
