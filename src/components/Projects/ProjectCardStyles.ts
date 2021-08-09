@@ -10,6 +10,10 @@ const useStyles = makeStyles((theme: Theme) => (
     videoContainer: {
       overflow: "hidden",
       width: "100%",
+      height: "11em",
+      [theme.breakpoints.up("sm")]: {
+        height: "13em"
+      },
       [theme.breakpoints.up("md")]: {
         height: "15em"
       }
