@@ -4,9 +4,10 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       flexGrow: 1,
+      // background: "inherit"
     },
     appBar: {
-      background: "inherit",
+      background: "radial-gradient(circle, rgba(114,237,242,1) 0%, rgba(81,81,229,1) 100%)",
     },
     wrapper: {
       maxWidth: 1440,
@@ -47,7 +48,8 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     button: {
       fontWeight: 700
-    }
+    },
+    spacing: theme.mixins.toolbar
   }),
 );
 

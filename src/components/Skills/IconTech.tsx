@@ -1,4 +1,3 @@
-import { Fragment } from 'react'
 import Box from "@material-ui/core/Box"
 import Grid from "@material-ui/core/Grid"
 import html from "../../assets/img/html.png"
@@ -23,7 +22,7 @@ const IconTech = (): JSX.Element => {
   const classes = useStyles();
 
   return (
-    <Grid container spacing={5} justifyContent="center" alignItems="center" >
+    <Grid container spacing={4} justifyContent="center" alignItems="center" >
       <Grid item xs={5} sm={3} md={2} lg={2} xl={2} >
         <Box className={classes.imgContainer}>
           <img

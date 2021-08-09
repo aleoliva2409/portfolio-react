@@ -7,45 +7,53 @@ import GetAppIcon from "@material-ui/icons/GetApp";
 import { Link } from "react-scroll";
 import useStyles from "./NavbarStyles";
 
-
 const Navbar = (): JSX.Element => {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
-      <AppBar position="sticky" className={classes.appBar} >
-          <Toolbar className={classes.wrapper} >
-            <MenuResponsive />
-            <ul className={classes.menu}>
-              <li className={classes.list}>
-                <Link to="home" className={classes.link}>Hola</Link>
-              </li>
-              <li className={classes.list}>
-                <Link to="skills" className={classes.link}>Skills</Link>
-              </li>
-              <li className={classes.list}>
-                <Link to="projects" className={classes.link}>Proyectos</Link>
-              </li>
-              <li className={classes.list}>
-                <Link to="contact" className={classes.link}>Hablemos</Link>
-              </li>
-            </ul>
-            <Box
-              className={classes.btnContainer}
-              display="flex"
-              justifyContent="flex-end"
+      <AppBar position="fixed" className={classes.appBar}>
+        <Toolbar className={classes.wrapper}>
+          <MenuResponsive />
+          <ul className={classes.menu}>
+            <li className={classes.list}>
+              <Link to="home" smooth={true} className={classes.link}>
+                Hola
+              </Link>
+            </li>
+            <li className={classes.list}>
+              <Link to="skills" smooth={true} className={classes.link}>
+                Skills
+              </Link>
+            </li>
+            <li className={classes.list}>
+              <Link to="projects" smooth={true} className={classes.link}>
+                Proyectos
+              </Link>
+            </li>
+            <li className={classes.list}>
+              <Link to="contact" smooth={true} className={classes.link}>
+                Hablemos
+              </Link>
+            </li>
+          </ul>
+          <Box
+            className={classes.btnContainer}
+            display="flex"
+            justifyContent="flex-end"
+          >
+            <Button
+              variant="contained"
+              color="primary"
+              className={classes.button}
+              endIcon={<GetAppIcon />}
             >
-              <Button
-                variant="contained"
-                color="primary"
-                className={classes.button}
-                endIcon={<GetAppIcon />}
-              >
-                CURRÍCULUM
-              </Button>
-            </Box>
-          </Toolbar>
+              CURRÍCULUM
+            </Button>
+          </Box>
+        </Toolbar>
       </AppBar>
+      <div className={classes.spacing} />
     </div>
   );
 };

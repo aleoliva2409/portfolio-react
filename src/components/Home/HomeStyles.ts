@@ -2,6 +2,12 @@ import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
+    container: {
+      paddingTop: "2.5em",
+      [theme.breakpoints.up("sm")]: {
+        paddingTop: "4em"
+      }
+    },
     imgContainer: {
       borderRadius: "15px",
       overflow: "hidden",

@@ -7,7 +7,7 @@ const Arrow = () => {
   const classes = useStyles();
 
   return (
-    <Box display="flex" justifyContent="center" my={8}>
+    <Box display="flex" justifyContent="center" pt={8} >
       <ArrowDownwardIcon className={classes.icon} />
     </Box>
   )

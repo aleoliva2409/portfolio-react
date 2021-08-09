@@ -8,6 +8,9 @@ const theme: ITheme = createTheme({
       light: "#45229b",
       main: "#310A90",
       dark: "#2c0981"
+    },
+    secondary: {
+      main: "#fff",
     }
   },
   typography: {

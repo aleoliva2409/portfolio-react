@@ -41,22 +41,22 @@ const MenuResponsive = (): JSX.Element => {
         onClose={handleClose}
       >
         <MenuItem className={classes.item}>
-          <Link to="home" onClick={handleClose}>
+          <Link to="home" smooth={true} onClick={handleClose}>
             Hola
           </Link>
         </MenuItem>
         <MenuItem className={classes.item}>
-          <Link to="skills" onClick={handleClose}>
+          <Link to="skills" smooth={true} onClick={handleClose}>
             Skills
           </Link>
         </MenuItem>
         <MenuItem className={classes.item}>
-          <Link to="projects" onClick={handleClose}>
+          <Link to="projects" smooth={true} onClick={handleClose}>
             Proyectos
           </Link>
         </MenuItem>
         <MenuItem className={classes.item} >
-          <Link to="contact" onClick={handleClose}>
+          <Link to="contact" smooth={true} onClick={handleClose}>
             Hablemos
           </Link>
         </MenuItem>
