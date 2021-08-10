@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import { Box, IconButton } from "@material-ui/core";
 import {
-  Phone as PhoneIcon,
   WhatsApp as WhatsAppIcon,
   Mail as MailIcon,
   LinkedIn as LinkedInIcon,

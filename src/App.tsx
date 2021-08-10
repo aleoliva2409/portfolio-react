@@ -2,7 +2,7 @@
 import { Container } from "@material-ui/core";
 import Contact from "./components/Contact/Contact";
 import Arrow from "./components/Extra/Arrow";
-import Footer from "./components/footer/Footer";
+import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";

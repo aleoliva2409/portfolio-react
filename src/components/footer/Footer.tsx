@@ -17,6 +17,7 @@ const Footer = (): JSX.Element => {
           <Grid item xs={12} sm={12} md={12} lg={12} xl={12} >
             <Box textAlign="center" my={4}>
             <Typography variant="body2" color="secondary">Hecho por @aleoliva2409</Typography>
+            <Typography variant="body1" color="primary">alejandro.oliva2409@gmail.com</Typography>
               <Typography variant="body2" color="secondary">© 2021 - Todos los derechos reservados.</Typography>
             </Box>
           </Grid>
