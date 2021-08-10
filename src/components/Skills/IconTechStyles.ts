@@ -5,7 +5,12 @@ const useStyles = makeStyles((theme: Theme) =>
     imgContainer: {
       overflow: "hidden",
       width: "100%",
-      height: "100%"
+      height: "100%",
+      transition: "all .5s",
+      paddingBottom: ".5em",
+      "&:hover": {
+        transform: "scale(1.2)",
+      }
     },
     img: {
       width: "100%",

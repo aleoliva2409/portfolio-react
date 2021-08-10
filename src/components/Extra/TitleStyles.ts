@@ -9,8 +9,23 @@ const useStyles = makeStyles((theme: Theme) =>
       fontWeight: 600,
       fontSize: "2.2em",
       padding: ".2em",
-      marginLeft: "20px",
-      display: "inline"
+      marginLeft: ".5em",
+      display: "inline",
+      [theme.breakpoints.up("sm")]: {
+        display: "block",
+        textAlign: "center",
+        margin: "0 auto",
+        width: "80%"
+      },
+      [theme.breakpoints.up("md")]: {
+        width: "75%"
+      },
+      [theme.breakpoints.up("lg")]: {
+        width: "65%"
+      },
+      [theme.breakpoints.up("xl")]: {
+        width: "60%"
+      }
     }
   })
 )

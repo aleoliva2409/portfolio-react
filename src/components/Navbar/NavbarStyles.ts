@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme: Theme) =>
     link: {
       display: "block",
       color: "#310A90",
-      fontWeight: 550,
+      fontWeight: 700,
       fontSize: "1.1em",
       cursor: "pointer",
       padding: ".4em",

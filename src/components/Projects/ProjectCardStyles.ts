@@ -5,20 +5,27 @@ const useStyles = makeStyles((theme: Theme) => (
     card: {
       overflow: "hidden",
       background: "inherit",
-      
+      [theme.breakpoints.down("xs")]: {
+        maxWidth: "22em",
+        margin: "0 auto"
+      },
+      [theme.breakpoints.up("md")]: {
+        maxWidth: "24em",
+        margin: "0 auto"
+      },
     },
     videoContainer: {
       overflow: "hidden",
       width: "100%",
-      height: "11em",
+      height: "13em",
       [theme.breakpoints.up("sm")]: {
-        height: "13em"
-      },
-      [theme.breakpoints.up("md")]: {
         height: "15em"
       }
     },
     text: {
+      [theme.breakpoints.up("sm")]: {
+        height: "18em"
+      },
       [theme.breakpoints.up("md")]: {
         height: "14em"
       }

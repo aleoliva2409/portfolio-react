@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     item: {
       color: "#310A90",
-      fontWeight: 550
+      fontWeight: 700
     },
   }),
 );
