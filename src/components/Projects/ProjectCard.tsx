@@ -41,12 +41,19 @@ const ProjectCard = (): JSX.Element => {
           <Box display="flex" justifyContent="space-evenly" py={2}>
             <Button
               variant="contained"
+              href="https://github.com/aleoliva2409/Countries-App"
+              target="_blank"
               className={classes.btnGit}
               startIcon={<GitHubIcon />}
             >
               Código
             </Button>
-            <Button variant="contained" className={classes.btn}>
+            <Button
+              variant="contained"
+              href="https://countries-app-zeta.vercel.app/"
+              target="_blank"
+              className={classes.btn}
+            >
               Web
             </Button>
           </Box>
@@ -80,6 +87,8 @@ const ProjectCard = (): JSX.Element => {
           <Box display="flex" justifyContent="space-evenly" py={2}>
             <Button
               variant="contained"
+              href="https://github.com/aleoliva2409/Ecommerce-App-G3"
+              target="_blank"
               className={classes.btnGit}
               startIcon={<GitHubIcon />}
             >
