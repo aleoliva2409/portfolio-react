@@ -46,7 +46,7 @@ const Navbar = (): JSX.Element => {
               variant="contained"
               color="primary"
               className={classes.button}
-              href="https://drive.google.com/uc?export=download&id=1VpIXuzINjFhOQ1TpsI6nuzxniHOGu5sj"
+              href="https://drive.google.com/uc?export=download&id=1TWW9T9I4m-n_VCqdjsd3ioVzIsSQjtvY"
               endIcon={<GetAppIcon />}
             >
               CURRÍCULUM
