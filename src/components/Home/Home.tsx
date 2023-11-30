@@ -29,10 +29,8 @@ const Inicio = (): JSX.Element => {
           Soy Alejandro
         </Typography>
         <Typography variant="body2" color="primary" className={classes.text}>
-          Tengo 28 años, soy Full Stack Developer que busca desafios,
-          implementar nuevas ideas, aprender nuevas tecnologías y crecer
-          profesionalmente. Si quieres contar conmigo en tu proximo proyecto y/o
-          empresa, no dudes en contactarme por mis redes!
+          Tengo 28 años, soy Full Stack Developer con 3 años de experencia, actualmente trabajando en
+          Banco Galicia, uno de las bancos mas importantes de Argentina. Si quieres contactarme, te dejo mis redes aquÍ abajo ↓
         </Typography>
         <Box display="flex" justifyContent="space-evenly" py={2}>
           <Icons />
