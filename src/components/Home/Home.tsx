@@ -29,7 +29,7 @@ const Inicio = (): JSX.Element => {
           Soy Alejandro
         </Typography>
         <Typography variant="body2" color="primary" className={classes.text}>
-          Tengo 25 años, soy Full Stack Developer que busca desafios,
+          Tengo 28 años, soy Full Stack Developer que busca desafios,
           implementar nuevas ideas, aprender nuevas tecnologías y crecer
           profesionalmente. Si quieres contar conmigo en tu proximo proyecto y/o
           empresa, no dudes en contactarme por mis redes!
