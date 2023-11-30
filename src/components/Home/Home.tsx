@@ -30,7 +30,7 @@ const Inicio = (): JSX.Element => {
         </Typography>
         <Typography variant="body2" color="primary" className={classes.text}>
           Tengo 28 años, soy Full Stack Developer con 3 años de experencia, actualmente trabajando en
-          Banco Galicia, uno de las bancos mas importantes de Argentina. Si quieres contactarme, te dejo mis redes aquÍ abajo ↓
+          Banco Galicia, uno de las bancos mas importantes de Argentina. Si quieres contactarme, te dejo mis redes aquí abajo ↓
         </Typography>
         <Box display="flex" justifyContent="space-evenly" py={2}>
           <Icons />
